@@ -3,7 +3,7 @@ import random
 from PyQt5.QtCore import QEvent, Qt
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import QApplication, QFrame, QGridLayout, QLabel, QRadioButton, QCheckBox, QWidget, QLCDNumber
-from q import SplendorTable
+from game_board import SplendorTable
 
 
 class NotifyParent(QEvent):
